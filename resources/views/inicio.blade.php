@@ -45,6 +45,7 @@
             @csrf
             <label for="lblNome">
                 Nome:
+            
             </label>
             <input type="text" name="nome" id="">
             <br><br>
