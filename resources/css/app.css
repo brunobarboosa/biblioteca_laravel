@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply mt-16 w-1/3 h-8 rounded-sm bg-fuchsia-500 text-white;
+    }
+
+    .btn-secondary {
+        @apply btn-primary border-2 border-fuchsia-300 text-black bg-transparent;
+    }
+}
